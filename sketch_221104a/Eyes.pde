@@ -1,4 +1,5 @@
 void eyes() {
+fill(#FFFDFC);  
 ellipse(200,150,90,70);
 ellipse(400,150,90,70);
 //
