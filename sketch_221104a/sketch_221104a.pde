@@ -25,8 +25,15 @@ void draw() {
   }//End draw
 //
 void keyPressed() {
+ if( key='N' | key='n' );
+ if( nightmode==false ) {
+   nightmode=true;
+ } else {
+   nightmode=false;
+ }
+}
   //KeyBoard Shortcuts
-}//End keyPressed
+ //End keyPressed
 //
 void mousePressed() {
   //OS System Button

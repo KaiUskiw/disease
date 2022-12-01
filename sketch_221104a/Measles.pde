@@ -5,31 +5,31 @@ void measles() {
   //Population Code
   measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(appHeight);
-  measlesDiameter = 10;
+  measlesDiameter = appHeight * 1/100; //smallerDimentionRequired
   //
   ellipse( measlesX, measlesY, measlesDiameter, measlesDiameter );
   //
    measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(appHeight);
-  measlesDiameter = 10;
+  measlesDiameter = appHeight * 1/95;
   //
   ellipse( measlesX, measlesY, measlesDiameter, measlesDiameter );
   // 
   measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(appHeight);
-  measlesDiameter = 10;
+  measlesDiameter = appHeight * 1/80;
   //
   ellipse( measlesX, measlesY, measlesDiameter, measlesDiameter );
   //
    measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(appHeight);
-  measlesDiameter = 10;
+  measlesDiameter = appHeight * 1/85;
   //
   ellipse( measlesX, measlesY, measlesDiameter, measlesDiameter );
   //
    measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(appHeight);
-  measlesDiameter = 10;
+  measlesDiameter = appHeight * 1/75;
   //
   ellipse( measlesX, measlesY, measlesDiameter, measlesDiameter );
   //
