@@ -1,6 +1,5 @@
 //Global Variables
 float appHeight, appWidth;
-//
 void setup() {
   //Display & Orientation
   size(600,400);
@@ -18,19 +17,15 @@ void draw() {
   //OS System Button
   //Start Button | Measles Reset Button
   //Theme: face & measles with different sizes and colours
+
    measles();
+     nose();
    eyes();
-  nose();
   mouth();
   }//End draw
 //
 void keyPressed() {
- if( key='N' | key='n' );
- if( nightmode==false ) {
-   nightmode=true;
- } else {
-   nightmode=false;
- }
+
 }
   //KeyBoard Shortcuts
  //End keyPressed

@@ -1,5 +1,5 @@
 void eyes() {
-fill(#FFFDFC);  
+fill( random (0,255), random(0,255), random(0,255));  
 ellipse(200,150,90,70);
 ellipse(400,150,90,70);
 //
