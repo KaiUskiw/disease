@@ -4,7 +4,7 @@ float faceX, faceY, faceDiameter;
 void faceSetup() {
   //Face: inscribing a circle in a square (i.e. logical rectangle)
   //Start from center of display
- fill( color( random (0, 255), random(0, 255), random(0, 255)));
+ fill( color( random (0, 240), random(0, 255), random(0, 250)));
   rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
   //
   fill(#F7D6C3);
